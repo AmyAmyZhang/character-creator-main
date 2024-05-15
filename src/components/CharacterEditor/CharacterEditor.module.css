@@ -1,0 +1,47 @@
+.characterEditor {
+  padding-top: 128px;
+  padding-bottom: 64px;
+}
+
+.maxWidthWrapper {
+  max-width: 1024px;
+}
+
+.header {
+  padding-bottom: 64px;
+  width: 65%;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 16px;
+  letter-spacing: -0.5px;
+}
+
+.description {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.characterWrapper {
+  position: fixed;
+  left: 65%;
+  top: 128px;
+  min-height: 500px;
+  width: 20%;
+}
+
+.controlColumn {
+  width: 50%;
+}
+
+.perspectiveEffect {
+  position: fixed;
+  background: hsl(195deg, 20%, 86%);
+  width: 100%;
+  height: 40%;
+  bottom: 0px;
+  z-index: -1;
+}
